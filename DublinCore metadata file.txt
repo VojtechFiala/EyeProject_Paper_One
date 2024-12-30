@@ -1,0 +1,26 @@
+<dublincore>
+  <dc:title>Eye Colour Project 1</dc:title>
+  <dc:description>This folder contains data and scripts for analyses conducted in the "Eye Colour Project 1" study. It includes data, R scripts for morphometric computations, descriptive statistics, main and alternative analyses, and visualisations of results.</dc:description>
+  <dc:creator>Anonymous_Creator</dc:creator>
+  <dc:date>2024-08-03</dc:date>
+  <dc:type>Dataset, Software</dc:type>
+  <dc:format>Text, CSV, Rdata</dc:format>
+  <dc:identifier>https://github.com/VojtechFiala/EyeProject_Paper_One</dc:identifier>
+  <dc:language>en-CZ</dc:language>
+  <dc:subject>Facial Morphometrics, CIELab Measurements, Bayesian Multiple Regression, Path Analysis</dc:subject>
+  <dc:publisher>Faculty of Science, Charles University, Prague</dc:publisher>
+  <dc:relation>
+    <dc:hasPart>Data_03_08_24.csv</dc:hasPart>
+    <dc:hasPart>Eye Colour Project 1.Rproj</dc:hasPart>
+    <dc:hasPart>1_Calculating_Morphometrics.R</dc:hasPart>
+    <dc:hasPart>2_Drawing_distribution_plots_and_deriving_tables.R</dc:hasPart>
+    <dc:hasPart>3_Modeling_Decentred_MF_Together_Standardised_Together_aka_Main_Analysis.R</dc:hasPart>
+    <dc:hasPart>4_Visualisation_Main_Analyses.R</dc:hasPart>
+    <dc:hasPart>5_Modeling_decentred_Alternatives_Standardised_together.R</dc:hasPart>
+    <dc:hasPart>6_Visualisation__Alternatives_Standardised_together.R</dc:hasPart>
+    <dc:hasPart>7_Modeling_decentred_Alternatives_Standardised_separately.R</dc:hasPart>
+    <dc:hasPart>8_Visualisation__Alternatives_Standardised_separately.R</dc:hasPart>
+  </dc:relation>
+  <dc:rights>Restricted (Will change to CC-By)</dc:rights>
+  <dc:coverage>Seven countries, nine samples, including variables for facial shape and colour measurement.</dc:coverage>
+</dublincore>
