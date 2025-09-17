@@ -24,10 +24,12 @@ The file contains the following columns:
 2) "Eye Colour Project 1.Rproj" - R project, please download this file and run every script from this file, otherwise, we cannot ensure optimal display of the scripts below.
 3)  "1_Calculating_Morphometrics.R" - Records on how the morphometric variables were computed. As we are not allowed to share the facial configurations, this script is for illustrative purposes only.
 4)  "2_Drawing_distribution_plots_and_deriving_tables.R" a script (active with the file "Data_03_08_24.csv"), basic descriptive statistics.
-5)  "3_Modeling_Decentred_MF_Together_Standardised_Together_aka_Main_Analysis.R" main analyses' record. Works well with the data. Please note that the exact results may differ slightly as the MCMC sampling is a pseudo-stochastics process
-       Note: this file includes path analyses reported in the article, too. 
-6)  "4_Visualisation_Main_Analyses.R" - Script to render Figure 2 and Figure 3 of the main article (returns figures prior to a small polishig procedure conducted in InkScape).
-7)  "5_Modeling_decentred_Alternatives_Standardised_together.R" first script containing alternative analyses. This file shows the layout of the models that (a) excluded Iranian sample, (b) excluded skin L* from the analysis.
-8)  "6_Visualisation__Alternatives_Standardised together.R" script to draw figures based on the models from the previous script.
-9)  "7_Modeling_decentred_Alternatives_Standardised_separately.R" second script to contain alternative analyses. This time, the data were standardised (transfered to variables with zero mean and SD = 1) separately.
-10) "8_Visualisation__Alternatives_Standardised_separately.R" script to draw figures based on the models from the previous script.
+5)  "3_Modeling_Decentred_MF_Together_Standardised_Together_aka_Main_Analysis_GEOADDED.R" main analyses' record. Works well with the data. Please note that the exact results may differ slightly as the MCMC sampling is a pseudo-stochastics process.
+       Note: this file includes path analyses reported in the article, too.
+       After revision, it also includes analyses done on samples pooled with regard to geographic location (therefore "GEOADDED").
+7)  "4_Visualisation_Main_Analyses.R" - Script to render Figure 2 and Figure 3 of the main article (returns figures prior to a small polishig procedure conducted in InkScape).
+8)  "5_Modeling_decentred_Alternatives_Standardised_together.R" first script containing alternative analyses. This file shows the layout of the models that (a) excluded Iranian sample, (b) excluded skin L* from the analysis.
+9)  "6_Visualisation__Alternatives_Standardised together.R" script to draw figures based on the models from the previous script.
+10)  "7_Modeling_decentred_Alternatives_Standardised_separately.R" second script to contain alternative analyses. This time, the data were standardised (transfered to variables with zero mean and SD = 1) separately.
+11) "8_Visualisation__Alternatives_Standardised_separately.R" script to draw figures based on the models from the previous script.
+12) "10_visualisation_pooled_samples.R" script to draw figures based on the models with geographically pooled samples.
